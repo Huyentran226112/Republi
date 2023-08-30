@@ -47,7 +47,18 @@ i.fa-solid.fa-house {
     margin-left: 88%;
     transform: translateY(337px);
 }
-
+i.fa-solid.fa-binoculars{
+    color: var(--primary-color);
+}
+i.fa-solid.fa-power-off{
+    color: var(--primary-color);
+}
+i.fa-solid.fa-bug{
+    color: var(--primary-color);
+}
+i.fa-solid.fa-user{
+    color: var(--primary-color);
+}
 .icon {
     margin-left: 189px;
     margin-bottom: 10px;
@@ -102,3 +113,16 @@ i.fa-brands.fa-facebook.icon {
 textarea {
     resize: none;
 }
+@media screen and (max-width: 1023px) {
+    .wrapper {
+        min-width: 1600px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper {
+      max-width: 1280px;
+
+    }
+}
+
