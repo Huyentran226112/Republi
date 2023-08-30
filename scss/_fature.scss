@@ -11,13 +11,12 @@
     &-content {
         transform: translateX(85px);
     }
-
     &-list {
         display: flex;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 66px;
         gap: 0 25px;
-        transform: translateX(-67px);
+        transform: translateX(-47px);
     }
 
     &-info {
@@ -26,6 +25,7 @@
     }
 
     &-our {
+    font-family: "RobotoRegular", sans-serif;
         font-size: 22px;
         font-style: italic;
         color: var(--black);
@@ -34,6 +34,7 @@
     }
 
     &-out {
+    font-family: "RobotoRegular", sans-serif;
         font-size: 22px;
         font-style: italic;
         color: var(--white);
@@ -56,6 +57,7 @@
     }
 
     &-desgn {
+    font-family: "RobotoRegular", sans-serif;
         margin-top: 30px;
         margin-bottom: 50px;
         color: var(--white);
@@ -66,6 +68,7 @@
     }
 
     &-outh {
+    font-family: "RobotoRegular", sans-serif;
         font-size: 22px;
         font-style: italic;
         color: var(--white);
@@ -74,6 +77,6 @@
         width: 237px;
     }
     &-fill {
-        padding: 10px 0 40px 25px;
+        padding: 10px 0 40px 5px;
    }
 }

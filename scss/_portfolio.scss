@@ -1,7 +1,9 @@
 .portfolio{
     padding: 40px;
-    background-image: url(../images/maps.jpg);
     background-color: var(--purple1);
+    &-fluid {
+        background-image: url(../images/maps.jpg);
+    }
     &-top{
         display: flex;
         align-items: center;

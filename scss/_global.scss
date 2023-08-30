@@ -27,6 +27,7 @@
 }
 
 .descs {
+    font-family: "RobotoRegular", sans-serif;
     color: var(--black);
     margin-bottom: 45px;
 }
@@ -34,6 +35,8 @@
 .btn-blue {
     color: var(--white);
     text-decoration: none;
+    letter-spacing: 2px;
+    font-family: "RobotoRegular", sans-serif;
     padding: 60px 100px 60px 100px;
     background: var(--blue-color);
     margin-bottom: 5px;
@@ -58,6 +61,7 @@ i.fa-solid.fa-house {
 }
 
 .desgn {
+    font-family: "RobotoRegular", sans-serif;
     color: var(--white);
     margin-top: 100px;
 }

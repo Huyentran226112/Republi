@@ -41,6 +41,7 @@
 }
 
 .descs {
+  font-family: "RobotoRegular", sans-serif;
   color: var(--black);
   margin-bottom: 45px;
 }
@@ -48,6 +49,8 @@
 .btn-blue {
   color: var(--white);
   text-decoration: none;
+  letter-spacing: 2px;
+  font-family: "RobotoRegular", sans-serif;
   padding: 60px 100px 60px 100px;
   background: var(--blue-color);
   margin-bottom: 5px;
@@ -58,7 +61,18 @@ i.fa-solid.fa-house {
   margin-left: 88%;
   transform: translateY(337px);
 }
-
+i.fa-magnifying-glass{
+  color:var(--primary-color);
+}
+i.fa-power-off{
+  color:var(--primary-color)
+}
+i.fa-bug{
+  color:var(--primary-color)
+}
+i.fa-user{
+  color:var(--primary-color)
+}
 .icon {
   margin-left: 189px;
   margin-bottom: 10px;
@@ -72,6 +86,7 @@ i.fa-solid.fa-house {
 }
 
 .desgn {
+  font-family: "RobotoRegular", sans-serif;
   color: var(--white);
   margin-top: 100px;
 }
@@ -223,18 +238,18 @@ body {
 .header-base {
   position: absolute;
   bottom: -77px;
-  border-width: 1px;
+  border-width: 2px;
   height: 1px;
   border-style: solid;
   border-color: var(--white);
-  width: 60px;
+  width: 67px;
   transform: translateY(-70px);
   margin-left: -20px;
 }
 .header-contac {
   position: absolute;
   border-width: 2px;
-  width: 144px;
+  width: 184px;
   border-style: solid;
   border-color: var(--white);
   height: 2px;
@@ -267,8 +282,11 @@ body {
 }
 .menu-link {
   display: inline-block;
+  font-family: "RobotoRegular", sans-serif;
   text-decoration: none;
   color: var(--white);
+  letter-spacing: 2px;
+  font-size: 17px;
   position: relative;
   transition: all 0.2s linear;
 }
@@ -298,15 +316,16 @@ body {
 .fature-list {
   display: flex;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 66px;
   gap: 0 25px;
-  transform: translateX(-67px);
+  transform: translateX(-47px);
 }
 .fature-info {
   background: var(--white);
   padding: 30px 26px 15px 30px;
 }
 .fature-our {
+  font-family: "RobotoRegular", sans-serif;
   font-size: 22px;
   font-style: italic;
   color: var(--black);
@@ -314,6 +333,7 @@ body {
   margin-bottom: 50px;
 }
 .fature-out {
+  font-family: "RobotoRegular", sans-serif;
   font-size: 22px;
   font-style: italic;
   color: var(--white);
@@ -333,6 +353,7 @@ body {
   padding: 95px 0 0px 20px;
 }
 .fature-desgn {
+  font-family: "RobotoRegular", sans-serif;
   margin-top: 30px;
   margin-bottom: 50px;
   color: var(--white);
@@ -341,6 +362,7 @@ body {
   background: var(--primary-color);
 }
 .fature-outh {
+  font-family: "RobotoRegular", sans-serif;
   font-size: 22px;
   font-style: italic;
   color: var(--white);
@@ -349,7 +371,7 @@ body {
   width: 237px;
 }
 .fature-fill {
-  padding: 10px 0 40px 25px;
+  padding: 10px 0 40px 5px;
 }
 
 .newletter {
@@ -366,13 +388,13 @@ body {
   padding: 190px 125px;
 }
 .newletter-top {
-  width: 54%;
+  width: 53%;
   background-position: center;
 }
 .newletter-heading {
   font-size: 50px;
   font-family: "RobotoRegular", sans-serif;
-  max-width: 317px;
+  max-width: 333px;
   letter-spacing: 5px;
   line-height: 1.1;
   margin-bottom: 30px;
@@ -390,8 +412,8 @@ body {
 
 button.slick-arrow {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   background: var(--primary-color);
   top: 50%;
   border-radius: 50%;
@@ -638,8 +660,10 @@ button.slick-arrow i {
 
 .portfolio {
   padding: 40px;
-  background-image: url(../images/maps.jpg);
   background-color: var(--purple1);
+}
+.portfolio-fluid {
+  background-image: url(../images/maps.jpg);
 }
 .portfolio-top {
   display: flex;
@@ -743,25 +767,25 @@ button.slick-arrow i {
   font-size: 18px;
   color: var(--white);
   letter-spacing: 2px;
-  border-bottom: 2px solid var(--white);
+  border-bottom: 4px solid var(--white);
   padding-bottom: 5px;
 }
 .footer-copyright {
   color: var(--white);
   font-size: 18px;
-  border-bottom: 2px solid var(--white);
+  border-bottom: 4px solid var(--white);
   padding-bottom: 5px;
 }
 .footer-axure {
   color: var(--white);
   font-size: 18px;
-  border-bottom: 2px solid var(--white);
+  border-bottom: 4px solid var(--white);
   padding-bottom: 5px;
 }
 .footer-desgn {
   color: var(--white);
   font-size: 18px;
-  border-bottom: 2px solid var(--white);
+  border-bottom: 4px solid var(--white);
   padding-bottom: 5px;
 }
 .footer-img {

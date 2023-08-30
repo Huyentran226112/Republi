@@ -27,8 +27,11 @@
 
     &-link {
         display: inline-block;
+        font-family: "RobotoRegular", sans-serif;
         text-decoration: none;
         color: var(--white);
+        letter-spacing: 2px;
+        font-size: 17px;
         position: relative;
         transition: all 0.2s linear;
 
