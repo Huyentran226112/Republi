@@ -1,0 +1,45 @@
+.service {
+    padding: 80px;
+    position: relative;
+    ::after{
+        content:"";
+        background: var(--primary-color);
+        position:absolute;
+        width: 70%;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+        left: 0;
+    }
+    &-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    &-about{
+        font-family: "RobotoRegular", sans-serif;
+        font-size: 55px;
+        font-weight: 400;
+        color: var(--white);
+        letter-spacing: 8px;
+        max-width: 400px;
+        margin-bottom: 40px;
+        line-height: 1.1;
+    }
+    &-logo {
+        img{
+            margin-left: -100px;
+        }
+    }
+    &-input {
+        padding: 10px 20px 10px 20px;
+        background: var(--white);
+        border: none;
+    }
+    &-form-input{
+        font-family: "RobotoRegular", sans-serif;
+        margin-bottom: 10px;
+    }
+
+}

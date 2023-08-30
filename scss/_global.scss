@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+.wrapper {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.heading {
+    font-family: "BuiltTitlingRegular", sans-serif;
+    font-size: 45px;
+    width: 630px;
+    letter-spacing: 3px;
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.desc {
+    color: var(--white);
+    line-height: 1.5;
+    font-family: "RobotoRegular", sans-serif;
+    max-width: 400px;
+    margin-bottom: 145px;
+}
+
+.descs {
+    color: var(--black);
+    margin-bottom: 45px;
+}
+
+.btn-blue {
+    color: var(--white);
+    text-decoration: none;
+    padding: 60px 100px 60px 100px;
+    background: var(--blue-color);
+    margin-bottom: 5px;
+}
+
+i.fa-solid.fa-house {
+    color: var(--white);
+    margin-left: 88%;
+    transform: translateY(337px);
+}
+
+.icon {
+    margin-left: 189px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 55px;
+    color: var(--white);
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
+.desgn {
+    color: var(--white);
+    margin-top: 100px;
+}
+
+i.fa-brands.fa-facebook.icon {
+    transform: translateY(-16px);
+    color: var(--white);
+}
+
+.img {
+    height: 211px;
+    width: 261px;
+    background-position: center;
+}
+.titles {
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+.btn-button{
+    font-family: "RobotoRegular", sans-serif;
+    padding: 10px 30px 10px 30px;
+    background: var(--black);
+    text-decoration: none;
+   color: var(--white);
+   
+}
+.inputs{
+  margin-bottom: 10px;
+}
+.btn-buttons {
+    padding: 15px 50px 15px 50px;
+    background: var(--primary-color);
+    color: var(--white);
+    text-decoration: none;
+}
+textarea {
+    resize: none;
+}

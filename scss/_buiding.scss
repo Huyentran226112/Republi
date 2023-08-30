@@ -1,0 +1,41 @@
+.buiding {
+    padding-top: 180px;
+    &-main {
+        display: flex;
+        align-items: center;
+        margin-bottom: 110px;
+    }
+    &-heading {
+        font-family: "RobotoRegular", sans-serif;
+        color: var(--primary-color);
+        font-size: 50px;
+        margin-bottom: 50px;
+        letter-spacing: 1px;
+    }
+    &-desc {
+        max-width: 450px;
+        line-height: 1.5;
+        font-family: "RobotoRegular", sans-serif;
+        margin-bottom: 50px;
+    }
+    &-right {
+            font-size: 25px;
+            letter-spacing: 5px;
+            font-family: "RobotoRegular", sans-serif;
+            margin-bottom: 10px;
+    }
+    &-top {
+        display: flex;
+        gap: 0 10px;
+    }
+    &-desgn {
+        margin-bottom: 10px;
+    }
+    &-img {
+        width: 838px;
+    }
+    &-content {
+        transform: translateX(85px);
+    }
+   
+}

@@ -1,0 +1,76 @@
+.staff{
+    background-image: url(../images/staff.jpg);
+    padding: 150px 0 130px;
+    &-main{
+        background: var(--black);
+        max-width: 450px;
+        padding: 30px 22px 40px 40px;
+    }
+    &-desc{
+        font-style: italic;
+        font-family: "RobotoRegular", sans-serif;
+        color: var(--primary-color);
+    }
+    &-heading{
+        font-family: "RobotoRegular", sans-serif;
+        color: var(--white);
+        font-size: 50px;
+        letter-spacing: 5px;
+        max-width: 350px;
+        line-height: 1.1;
+    }
+    &-content{
+        font-family: "RobotoRegular", sans-serif;
+    }
+    &-text{
+        color: var(--white);
+        max-width: 350px;
+    }
+    &-title{
+        transform: translateY(-58px);
+    }
+    &-list{
+        display: flex;
+        align-items: center;
+    
+    }
+    &-link{
+        padding: 32px 54px 10px 45px;
+        max-width:233px;
+        height:  289px;
+        background: var(--blue);
+    }
+    &-header{
+        font-family: "RobotoRegular", sans-serif;
+       padding:29px 0px 25px 145px;
+        background: var(--purple);
+        color: var(--white);
+        font-size: 20px;
+
+    }
+    &-flask{
+        font-family: "RobotoRegular", sans-serif;
+        color: var(--white);
+        font-size: 20px;
+        padding: 29px 0px 25px 145px;
+        background: var(--primary-color);
+    }
+    &-bullhorn{
+        width: 215px;
+        height: 289px
+    }
+    &-about{
+        font-family: "RobotoRegular", sans-serif;
+        color: var(--white);
+        font-style: italic;
+        margin-bottom: 30px;
+
+    }
+    &-sub{
+        font-family: "RobotoRegular", sans-serif;
+        color: var(--white);
+        letter-spacing: 2px;
+        font-size: 29px;
+    }
+
+}
