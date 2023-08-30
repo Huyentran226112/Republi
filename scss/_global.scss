@@ -10,7 +10,6 @@
 }
 
 .heading {
-    font-family: "BuiltTitlingRegular", sans-serif;
     font-size: 45px;
     width: 630px;
     letter-spacing: 3px;
@@ -21,13 +20,11 @@
 .desc {
     color: var(--white);
     line-height: 1.5;
-    font-family: "RobotoRegular", sans-serif;
     max-width: 400px;
     margin-bottom: 145px;
 }
 
 .descs {
-    font-family: "RobotoRegular", sans-serif;
     color: var(--black);
     margin-bottom: 45px;
 }
@@ -35,8 +32,6 @@
 .btn-blue {
     color: var(--white);
     text-decoration: none;
-    letter-spacing: 2px;
-    font-family: "RobotoRegular", sans-serif;
     padding: 60px 100px 60px 100px;
     background: var(--blue-color);
     margin-bottom: 5px;
@@ -47,18 +42,7 @@ i.fa-solid.fa-house {
     margin-left: 88%;
     transform: translateY(337px);
 }
-i.fa-solid.fa-binoculars{
-    color: var(--primary-color);
-}
-i.fa-solid.fa-power-off{
-    color: var(--primary-color);
-}
-i.fa-solid.fa-bug{
-    color: var(--primary-color);
-}
-i.fa-solid.fa-user{
-    color: var(--primary-color);
-}
+
 .icon {
     margin-left: 189px;
     margin-bottom: 10px;
@@ -72,7 +56,6 @@ i.fa-solid.fa-user{
 }
 
 .desgn {
-    font-family: "RobotoRegular", sans-serif;
     color: var(--white);
     margin-top: 100px;
 }
@@ -88,13 +71,11 @@ i.fa-brands.fa-facebook.icon {
     background-position: center;
 }
 .titles {
-    font-style: italic;
     font-size: 22px;
     margin-bottom: 70px;
     font-weight: bold;
 }
 .btn-button{
-    font-family: "RobotoRegular", sans-serif;
     padding: 10px 30px 10px 30px;
     background: var(--black);
     text-decoration: none;
@@ -113,16 +94,21 @@ i.fa-brands.fa-facebook.icon {
 textarea {
     resize: none;
 }
-@media screen and (max-width: 1023px) {
-    .wrapper {
-        min-width: 1600px;
-
+@media screen and (max-width: 767.98px) {
+    .titles {
+        margin-bottom: 40px;
+        font-size: 25px;
     }
-}
-@media screen and (max-width: 768px) {
-    .wrapper {
-      max-width: 1280px;
+   .heading {
+    font-size: 40px;
+    margin-bottom: 30px;
+   }
+   .desc {
+    margin-bottom: 80px;
+   }
+   .btn-blue {
+       padding: 40px 115px 40px 115px
 
-    }
+   }
+  
 }
-

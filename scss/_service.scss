@@ -1,24 +1,26 @@
 .service {
     padding: 80px;
     position: relative;
-    ::after{
-        content:"";
+
+    ::after {
+        content: "";
         background: var(--primary-color);
-        position:absolute;
+        position: absolute;
         width: 70%;
         height: 100%;
         top: 0;
         z-index: -1;
         left: 0;
     }
-    &-main{
+
+    &-main {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
+
     }
-    &-about{
-        font-family: "RobotoRegular", sans-serif;
+
+    &-about {
         font-size: 55px;
         font-weight: 400;
         color: var(--white);
@@ -27,19 +29,50 @@
         margin-bottom: 40px;
         line-height: 1.1;
     }
+
     &-logo {
-        img{
+        img {
             margin-left: -100px;
         }
     }
+
     &-input {
         padding: 10px 20px 10px 20px;
         background: var(--white);
         border: none;
     }
-    &-form-input{
-        font-family: "RobotoRegular", sans-serif;
+
+    &-form-input {
         margin-bottom: 10px;
     }
+
+    @media screen and (max-width: 767.98px) {
+        padding: 40px;
+
+        ::after {
+            width: 100%;
+        }
+
+        &-about {
+            font-size: 44px;
+        }
+
+        &-main {
+            flex-direction: column;
+        }
+
+        &-logo img {
+            margin-left: 0px;
+        }
+
+        &-content {
+            margin-bottom: 50px;
+        }
+
+        &-form-input {
+            margin-bottom: 20px;
+        }
+    }
+
 
 }

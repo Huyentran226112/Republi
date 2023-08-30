@@ -1,66 +1,77 @@
-.portfolio{
+.portfolio {
     padding: 40px;
     background-color: var(--purple1);
+
     &-fluid {
+
         background-image: url(../images/maps.jpg);
     }
-    &-top{
+
+    &-container {
         display: flex;
         align-items: center;
-        max-width: 800px;
+        max-width: 764px;
         margin: 0 auto;
         padding: 170px 0 140px;
     }
-    &-icon{
+
+    &-img {
+        margin: 0 auto;
+    }
+
+    &-icon {
         display: flex;
         align-items: center;
     }
-    &-content{
+
+    &-content {
         background-color: var(--purple);
         padding: 40px 0px 110px 33px;
     }
+
     &-title {
-        font-family: "RobotoRegular", sans-serif;
         font-size: 35px;
         color: var(--white);
         line-height: 1.5;
         letter-spacing: 4px;
     }
+
     &-desc {
-        font-family: "RobotoRegular", sans-serif;
         color: var(--white);
         max-width: 315px;
         line-height: 1.5;
         margin-bottom: 45px;
     }
+
     &-number {
         color: var(--white);
         font-size: 25px;
         margin-bottom: 45px;
     }
+
     &-icon {
         gap: 0 20px;
         margin-bottom: 50px;
     }
+
     &-visit {
-        font-family: "RobotoRegular", sans-serif;
         color: var(--white);
         font-size: 25px;
     }
+
     &-main {
         background: var(--black);
         max-width: 555px;
         padding: 44px 0 56px 39px;
     }
+
     &-list {
-        font-family: "RobotoRegular", sans-serif;
         font-size: 38px;
         color: var(--white);
         margin-bottom: 48px;
     }
+
     &-form-input {
-        font-family: "RobotoRegular", sans-serif;
-        color: var(--white);
         margin-bottom: 20px;
     }
 
@@ -70,22 +81,44 @@
         padding: 10px 137px 10px 10px;
         color: var(--white);
         z-index: 1;
-    
+
     }
+
     &-input-bottom {
         border: none;
         margin-bottom: 140px;
     }
+
     &-item {
-        font-family: "RobotoRegular", sans-serif;
         margin-bottom: 40px;
         font-size: 25px;
     }
+
     &-form-inputt {
         padding: 12px 153px 83px 11px;
         background: var(--black1);
         color: var(--white);
         border: none;
         margin-bottom: 30px;
-}
+    }
+
+    @media screen and (max-width: 767.98px) {
+        &-container {
+            flex-direction: column;
+            padding: 60px 0 60px;
+        }
+
+        &-inputs {
+            padding: 10px 50px 10px 10px;
+        }
+
+        &-form-inputt {
+            padding: 12px 78px 50px 11px;
+        }
+        &-top {
+            padding: 12px 78px 50px 11px;
+        }
+    }
+
+
 }

@@ -12,7 +12,8 @@
     &-logo {
         display: flex;
         align-items: center;
-        gap: 0 10px;
+        color: white;
+        gap: 0 20px;
     }
 
     &-content {
@@ -71,24 +72,51 @@
     &-base {
         position: absolute;
         bottom: -77px;
-        border-width: 2px;
+        border-width: 1px;
         height: 1px;
         border-style: solid;
         border-color: var(--white);
-        width: 67px;
+        width: 60px;
         transform: translateY(-70px);
         margin-left: -20px;
     }
     &-contac {
         position: absolute;
         border-width: 2px;
-        width: 184px;
+        width: 144px;
         border-style: solid;
         border-color: var(--white);
         height: 2px;
         transform: translateX(109px);
         margin-top: 10px;
     }
-
-        
+    
+    
 }
+@media screen and (max-width: 767.98px) {
+    .header {
+        &-content {
+            grid-template-columns: 100%;
+        }
+        &-top {
+            flex-direction: column;
+        }
+        &-title {
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+        &-desc {
+            position: none;
+            left: -2%;
+            font-size: 18px;
+        }
+        &-dost {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    
+}
+            
