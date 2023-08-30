@@ -8,12 +8,10 @@
         list-style: none;
     }
     &-item-active {
-        // background: red;
         background:var(--purple-color);
   
     }
     &-item:hover{
-        // background: red;
         background: #9277B5;;
         a{
             color: var(--white);
@@ -24,14 +22,12 @@
             }
         }
     }
-
     &-link {
         display: inline-block;
         text-decoration: none;
         color: var(--white);
         position: relative;
         transition: all 0.2s linear;
-
         &::after {
             position: absolute;
             content: "";
@@ -44,8 +40,14 @@
             transition: all 0.2s linear;
         }
     }
-    @media screen and (max-width: 767.98px) {
-       display: none;
+    @media screen and (max-width: 991px) {
+        gap: 0 0px;
+        &-item{
+         padding: 40px 20px;
+         list-style: none;
+         }
     }
-    
+    @media screen and (max-width: 767.98px) {
+        display: none;
+    }
 }

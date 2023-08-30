@@ -1,7 +1,6 @@
 .fature {
     padding: 150px 0 100px;
     background-color: var(--blue);
-
     &-main {
         display: flex;
         align-items: center;
@@ -65,7 +64,6 @@
     &-imag {
         background: var(--primary-color);
     }
-
     &-outh {
         font-size: 22px;
         font-style: italic;
@@ -74,13 +72,14 @@
         margin-bottom: 68px;
         width: 237px;
     }
-
     &-fill {
         padding: 10px 0 40px 25px;
     }
-
-    @media screen and (max-width: 767.98px) {
+    @media screen and (max-width: 991px) {
         padding: 50px 0 50px;
+        .heading {
+            width: 100%;
+        }
         &-main {
             flex-direction: column;
         }
