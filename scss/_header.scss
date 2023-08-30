@@ -97,21 +97,50 @@
     .header {
         &-content {
             grid-template-columns: 100%;
+            padding-top: 20px;
         }
         &-top {
             flex-direction: column;
+            i.fa-solid{
+                position: absolute;
+            }
         }
         &-title {
             margin-bottom: 30px;
             font-size: 40px;
         }
         &-desc {
-            position: none;
+            position: static;
             left: -2%;
             font-size: 18px;
+            height: auto;
+            width: 100%;
         }
         &-dost {
             margin-bottom: 10px;
+        }
+        &-img {
+            text-align: center;
+            margin-top: 10px;
+            img {
+                display: inline;
+            }
+        }
+        &-drive {
+            margin-left: -8px;
+        }
+        &-auth {
+            margin-left: 0px;
+        }
+        &-contac {
+            display: none;
+        }
+        &-dost{
+            text-align: center;
+            a::before {
+                content: "";
+                
+            }
         }
     }
 }

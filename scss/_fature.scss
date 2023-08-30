@@ -86,16 +86,22 @@
         }
         &-list {
             flex-direction: column;
+            transform:unset;
+            img {
+                width: 100%;
+            }
+        }
+        &-content {
+            transform: unset;
+        }
+        .desc {
+            max-width: unset;
+        }
 
+        &-item {
+            max-width: 263px;
+            margin-bottom: 20px;
         }
-        &-im {
-            margin-bottom: 40px;
-        }
-        &-sinup {
-            margin-bottom: 40px;
-        }
+
     }
-
-    
-
 }

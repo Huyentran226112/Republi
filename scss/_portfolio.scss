@@ -105,7 +105,11 @@
     @media screen and (max-width: 767.98px) {
         &-container {
             flex-direction: column;
-            padding: 60px 0 60px;
+            width: 420px;
+            margin-left: -10px;
+            padding: 50px 0 10px;
+
+              
         }
 
         &-inputs {
@@ -117,7 +121,11 @@
         }
         &-top {
             padding: 12px 78px 50px 11px;
-        }
+        } 
+        &-content{
+        margin-bottom: 30px;
+        } 
+        
     }
 
 

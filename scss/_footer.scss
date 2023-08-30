@@ -59,6 +59,7 @@
         transform: translateX(124px);
     }
 @media screen and (max-width: 767.98px) {
+        padding: 50px 0 50px;
     &-menu{
 
         flex-direction: column;
@@ -69,6 +70,19 @@
     &-img{
             transform: translateX(0px);
     }
+    &-axure {
+        color: white;
+    }
+    &-desgn{
+        color: white;
+    }
+    &-link {
+        margin-bottom: 38px;
+    }
+    &-copyright {
+        margin-bottom: 38px;
+    }
 }
+
 
 }

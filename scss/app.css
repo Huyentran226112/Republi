@@ -79,6 +79,22 @@ i.fa-brands.fa-facebook.icon {
   color: var(--white);
 }
 
+i.fa-solid.fa-binoculars {
+  color: var(--primary-color);
+}
+
+i.fa-solid.fa-power-off {
+  color: var(--primary-color);
+}
+
+i.fa-solid.fa-bug {
+  color: var(--primary-color);
+}
+
+i.fa-solid.fa-user {
+  color: var(--primary-color);
+}
+
 .img {
   height: 211px;
   width: 261px;
@@ -458,7 +474,6 @@ body {
     width: 305px;
   }
 }
-
 .tanner {
   background: purple;
 }
@@ -626,6 +641,9 @@ button.slick-arrow i {
   .service-form-input {
     margin-bottom: 20px;
   }
+  .service-input {
+    padding: 10px 90px 10px 20px;
+  }
 }
 
 .event {
@@ -781,6 +799,39 @@ button.slick-arrow i {
   letter-spacing: 2px;
   font-size: 25px;
 }
+@media screen and (max-width: 767.98px) {
+  .staff {
+    padding: 50px 0 50px;
+  }
+  .staff-sub {
+    font-size: 21px;
+  }
+  .staff-desc {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  .staff-heading {
+    margin-bottom: 10px;
+  }
+  .staff-text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .staff-about {
+    width: 124px;
+    margin-bottom: 20px;
+  }
+  .staff-bullhorn {
+    width: 150px;
+    height: 290px;
+  }
+  .staff-header {
+    padding: 40px 0px 40px 63px;
+  }
+  .staff-flask {
+    padding: 40px 0px 40px 63px;
+  }
+}
 
 .portfolio {
   padding: 40px;
@@ -870,7 +921,9 @@ button.slick-arrow i {
 @media screen and (max-width: 767.98px) {
   .portfolio-container {
     flex-direction: column;
-    padding: 60px 0 60px;
+    width: 420px;
+    margin-left: -10px;
+    padding: 50px 0 10px;
   }
   .portfolio-inputs {
     padding: 10px 50px 10px 10px;
@@ -880,6 +933,9 @@ button.slick-arrow i {
   }
   .portfolio-top {
     padding: 12px 78px 50px 11px;
+  }
+  .portfolio-content {
+    margin-bottom: 30px;
   }
 }
 
@@ -943,6 +999,9 @@ button.slick-arrow i {
   transform: translateX(124px);
 }
 @media screen and (max-width: 767.98px) {
+  .footer {
+    padding: 50px 0 50px;
+  }
   .footer-menu {
     flex-direction: column;
   }
@@ -951,5 +1010,17 @@ button.slick-arrow i {
   }
   .footer-img {
     transform: translateX(0px);
+  }
+  .footer-axure {
+    color: white;
+  }
+  .footer-desgn {
+    color: white;
+  }
+  .footer-link {
+    margin-bottom: 38px;
+  }
+  .footer-copyright {
+    margin-bottom: 38px;
   }
 }/*# sourceMappingURL=app.css.map */
