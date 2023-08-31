@@ -23,11 +23,7 @@
 }
 @font-face {
   font-family: "RobotoBold";
-  src: url("../font/RobotoCondensed-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Condensed Bold";
-  src: url("../font/DIN-Condensed-Bold.ttf") format("truetype");
+  src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
 }
 .wrapper {
   margin: 0 auto;
@@ -672,7 +668,7 @@ button.slick-arrow i {
   gap: 0 10px;
 }
 .buiding-desgn {
-  font-family: "BuiltTitlingBoldItalic";
+  font-family: "RobotoBold", sans-serif;
   margin-bottom: 10px;
 }
 .buiding-img {
