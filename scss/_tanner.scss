@@ -3,10 +3,10 @@
 }
 button.slick-arrow {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     background: var(--primary-color);
-    top: 50%;
+    top: 57%;
     border-radius: 50%;
 }
 button.slick-next.slick-arrow {
@@ -17,11 +17,12 @@ button.slick-prev.slick-arrow {
     z-index: 1;
 }
 button.slick-arrow i {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: white;
-    padding-top: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 64%;
+    background: #e1dbdb;
+    padding-top: 7px;
+    z-index: 2;
     color: var(--primary-color);
 }
 @media screen and (max-width: 767.98px) {

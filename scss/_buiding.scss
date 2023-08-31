@@ -7,15 +7,15 @@
     }
     &-heading {
         color: var(--primary-color);
-        font-size: 50px;
-        // width: 752px;
+        font-size: 53px;
+        width: 752px;
         font-family: "BuiltTitlingRegular", sans-serif;
         margin-bottom: 50px;
         letter-spacing: 5px;
     }
     &-desc {
         font-family: "BuiltTitlingRegular", sans-serif;
-        max-width: 450px;
+        max-width: 424px;
         line-height: 1.5;
         margin-bottom: 50px;
     }
@@ -53,6 +53,7 @@
     &-heading {
         font-size: 40px;
         line-height: 1.2;
+        width: 10px;
         margin-bottom: 15px;
     }
     &-desc {

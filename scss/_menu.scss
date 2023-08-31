@@ -4,12 +4,13 @@
     gap: 0 0px;
   
     &-item{
-        padding: 60px 100px 40px 100px;
-        list-style: none;
+            padding: 53px 101px 43px 118px;
+            list-style: none;
     }
     &-item-active {
+        font-family: "RobotoRegular", sans-serif;
         background:var(--purple-color);
-  
+            letter-spacing: 2.2px;
     }
     &-item:hover{
         background: #9277B5;;
@@ -25,6 +26,8 @@
     &-link {
         display: inline-block;
         text-decoration: none;
+        letter-spacing: 2.2px;
+        font-family: "BuiltTitlingRegular", sans-serif;
         color: var(--white);
         position: relative;
         transition: all 0.2s linear;

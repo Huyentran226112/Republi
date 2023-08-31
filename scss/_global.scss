@@ -16,9 +16,9 @@
     src: url("../fonts/BuiltTitlingRg-BoldItalic700.ttf") format("truetype");
   }
 .wrapper {
+    width: 1586px;
     margin: 0 auto;
 }
-
 .container {
     max-width: 1300px;
     margin: 0 auto;
@@ -38,6 +38,7 @@
     color: var(--white);
     font-family: "BuiltTitlingRegular", sans-serif;
     line-height: 1.5;
+    font-weight: 400;
     max-width: 400px;
     margin-bottom: 145px;
 }
@@ -59,8 +60,8 @@
 
 i.fa-solid.fa-house {
     color: var(--white);
-    margin-left: 88%;
-    transform: translateY(337px);
+        margin-left: 89%;
+        transform: translateY(386px);
 }
 
 .icon {
@@ -105,6 +106,7 @@ i.fa-solid.fa-user{
     font-family: "BuiltTitlingRegular", sans-serif;
     font-size: 22px;
     margin-bottom: 70px;
+    font-style: italic;
     font-weight: bold;
 }
 .btn-button{
