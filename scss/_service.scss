@@ -17,12 +17,15 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+         width: 1181px;
+        margin: 0 auto;
+      
     }
 
     &-about {
         font-size: 55px;
         font-weight: 400;
+        font-family: "RobotoRegular", sans-serif;
         color: var(--white);
         letter-spacing: 8px;
         max-width: 400px;
@@ -37,6 +40,7 @@
     }
 
     &-input {
+        font-family: "RobotoRegular", sans-serif;
         padding: 10px 20px 10px 20px;
         background: var(--white);
         border: none;

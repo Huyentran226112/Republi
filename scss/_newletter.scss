@@ -15,6 +15,7 @@
         background-position: center;
     }
     &-heading {
+        font-family: "BuiltTitlingRegular", sans-serif;
         font-size: 50px;
         max-width: 317px;
         letter-spacing: 5px;
@@ -24,6 +25,7 @@
     }
     &-desc {
         width: 400px;
+        font-family: "BuiltTitlingRegular", sans-serif;
         line-height: 1.5;
     }
     @media screen and (max-width: 767.98px) {

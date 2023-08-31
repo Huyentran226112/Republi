@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@font-face {
+    font-family: "BuiltTitlingRegular";
+    src: url("../fonts/BuiltTitlingRg-Regular400.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "RobotoBold";
+    src: url("../font/Roboto/RobotoCondensed-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "BuiltTitlingBoldItalic";
+    src: url("../fonts/BuiltTitlingRg-BoldItalic700.ttf") format("truetype");
+  }
 .wrapper {
     margin: 0 auto;
 }
@@ -11,6 +27,7 @@
 
 .heading {
     font-size: 45px;
+    font-family: "BuiltTitlingRegular", sans-serif;
     width: 630px;
     letter-spacing: 3px;
     color: var(--white);
@@ -19,6 +36,7 @@
 
 .desc {
     color: var(--white);
+    font-family: "BuiltTitlingRegular", sans-serif;
     line-height: 1.5;
     max-width: 400px;
     margin-bottom: 145px;
@@ -26,12 +44,14 @@
 
 .descs {
     color: var(--black);
+    font-family: "BuiltTitlingRegular", sans-serif;
     margin-bottom: 45px;
 }
 
 .btn-blue {
     color: var(--white);
     text-decoration: none;
+    font-family: "BuiltTitlingRegular", sans-serif;
     padding: 60px 100px 60px 100px;
     background: var(--blue-color);
     margin-bottom: 5px;
@@ -82,12 +102,14 @@ i.fa-solid.fa-user{
     background-position: center;
 }
 .titles {
+    font-family: "BuiltTitlingRegular", sans-serif;
     font-size: 22px;
     margin-bottom: 70px;
     font-weight: bold;
 }
 .btn-button{
     padding: 10px 30px 10px 30px;
+    font-family: "BuiltTitlingRegular", sans-serif;
     background: var(--black);
     text-decoration: none;
    color: var(--white);
