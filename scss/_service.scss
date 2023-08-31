@@ -1,3 +1,15 @@
+@font-face {
+font-family: "BuiltTitlingRegular";
+src: url("../fonts/BuiltTitlingRg-Regular400.ttf") format("truetype");
+}
+@font-face {
+font-family: "RobotoRegular";
+src: url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "RobotoBold";
+src: url("../font/Roboto/RobotoCondensed-Bold.ttf") format("truetype");
+}
 .service {
     padding: 80px;
     position: relative;
@@ -63,8 +75,12 @@
 
         &-main {
             flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 auto;
+                flex-direction: column;
         }
-
         &-logo img {
             margin-left: 0px;
         }
@@ -79,6 +95,7 @@
         &-input {
             padding: 10px 90px 10px 20px;
         }
+     
     }
     @media screen and (max-width: 1023.98px) {
         ::after {

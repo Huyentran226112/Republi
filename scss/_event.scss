@@ -15,18 +15,21 @@
     }
     &-item-type {
         font-style: italic;
+        font-family: "BuiltTitlingRegular", sans-serif;
         color: var(--white);
         margin-bottom: 15px;
     }
 
     &-item-title {
         font-size: 42px;
-        font-family: "RobotoRegular", sans-serif;
+        font-family: "BuiltTitlingRegular", sans-serif;
+
         color: var(--white);
         margin-bottom: 25px;
     }
 
     &-item-desc {
+        font-family: "RobotoRegular", sans-serif;
         color: var(--white);
         max-width: 411px;
         line-height: 1.5;

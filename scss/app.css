@@ -15,19 +15,15 @@
 
 @font-face {
   font-family: "BuiltTitlingRegular";
-  src: url("../fonts/BuiltTitlingRg-Regular400.ttf") format("truetype");
+  src: url("../fonts/built titling rg.otf") format("truetype");
 }
 @font-face {
   font-family: "RobotoRegular";
-  src: url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype");
+  src: url("../fonts/RobotoCondensed-Regular.ttff") format("truetype");
 }
 @font-face {
   font-family: "RobotoBold";
-  src: url("../font/Roboto/RobotoCondensed-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "BuiltTitlingBoldItalic";
-  src: url("../fonts/BuiltTitlingRg-BoldItalic700.ttf") format("truetype");
+  src: url("../font/RobotoCondensed-Bold.ttf") format("truetype");
 }
 .wrapper {
   width: 1586px;
@@ -51,7 +47,7 @@
 
 .desc {
   color: var(--white);
-  font-family: "BuiltTitlingRegular", sans-serif;
+  font-family: "RobotoRegular", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   max-width: 400px;
@@ -559,7 +555,7 @@ body {
 .newletter-desc {
   width: 400px;
   font-weight: 400;
-  font-family: "BuiltTitlingRegular", sans-serif;
+  font-family: "RobotoRegular", sans-serif;
   line-height: 1.5;
 }
 @media screen and (max-width: 767.98px) {
@@ -721,6 +717,18 @@ button.slick-arrow i {
   }
 }
 
+@font-face {
+  font-family: "BuiltTitlingRegular";
+  src: url("../fonts/BuiltTitlingRg-Regular400.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../font/Roboto/RobotoCondensed-Bold.ttf") format("truetype");
+}
 .service {
   padding: 80px;
   position: relative;
@@ -776,6 +784,11 @@ button.slick-arrow i {
   }
   .service-main {
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column;
   }
   .service-logo img {
     margin-left: 0px;
@@ -813,16 +826,18 @@ button.slick-arrow i {
 }
 .event-item-type {
   font-style: italic;
+  font-family: "BuiltTitlingRegular", sans-serif;
   color: var(--white);
   margin-bottom: 15px;
 }
 .event-item-title {
   font-size: 42px;
-  font-family: "RobotoRegular", sans-serif;
+  font-family: "BuiltTitlingRegular", sans-serif;
   color: var(--white);
   margin-bottom: 25px;
 }
 .event-item-desc {
+  font-family: "RobotoRegular", sans-serif;
   color: var(--white);
   max-width: 411px;
   line-height: 1.5;

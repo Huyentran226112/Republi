@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 @font-face {
     font-family: "BuiltTitlingRegular";
-    src: url("../fonts/BuiltTitlingRg-Regular400.ttf") format("truetype");
+    src: url("../fonts/built titling rg.otf") format("truetype");
   }
   @font-face {
     font-family: "RobotoRegular";
-    src: url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype");
+    src: url("../fonts/RobotoCondensed-Regular.ttff") format("truetype");
   }
   @font-face {
     font-family: "RobotoBold";
-    src: url("../font/Roboto/RobotoCondensed-Bold.ttf") format("truetype");
+    src: url("../font/RobotoCondensed-Bold.ttf") format("truetype");
   }
-  @font-face {
-    font-family: "BuiltTitlingBoldItalic";
-    src: url("../fonts/BuiltTitlingRg-BoldItalic700.ttf") format("truetype");
-  }
+//   @font-face {
+//     font-family: "BuiltTitlingBoldItalic";
+//     src: url("../fonts/BuiltTitlingRg-BoldItalic700.ttf") format("truetype");
+//   }
 .wrapper {
     width: 1586px;
     margin: 0 auto;
@@ -36,7 +36,7 @@
 
 .desc {
     color: var(--white);
-    font-family: "BuiltTitlingRegular", sans-serif;
+    font-family: "RobotoRegular", sans-serif;
     line-height: 1.5;
     font-weight: 400;
     max-width: 400px;
