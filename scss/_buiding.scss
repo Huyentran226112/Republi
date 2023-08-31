@@ -62,5 +62,15 @@
     }
    
    }
+   @media screen and (max-width: 1023.98px) {
+        padding-top: 50px;
+    &-content {
+        transform: translateX(10px);
+    }
+    &-main {
+        margin-bottom: 50px;
+    }
+   }
+   
    
 }

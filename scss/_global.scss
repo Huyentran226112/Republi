@@ -121,5 +121,16 @@ textarea {
        padding: 40px 115px 40px 115px
 
    }
-  
 }
+@media screen and (max-width: 1023.98px) {
+    .titles {
+        margin-bottom: 50px;
+    }
+    .btn-blue {
+        color: var(--white);
+        text-decoration: none;
+        padding: 40px 100px 40px 100px;
+        background: var(--blue-color);
+        margin-bottom: 5px;
+    }
+   }

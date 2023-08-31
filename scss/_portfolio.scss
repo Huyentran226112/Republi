@@ -127,6 +127,45 @@
         } 
         
     }
-
-
+@media screen and (max-width: 1023.98px) {
+   
+    &-container {
+        padding: 50px 0 50px;
+    }
+    &-top {
+        width: 100%;
+    }
+    &-main {
+        max-width: 741px;
+        background: var(--black);
+        padding: 44px 0 56px 39px;
+    }
+    &-form-inputt {
+        padding: 15px 482px 83px 11px;
+    }
+    &-inputs {
+        background: var(--black1);
+        border: none;
+        padding: 15px 451px 15px 15px;
+        color: var(--white);
+        z-index: 1;
+    }
+    &-desc {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    &-title {
+        margin-bottom: 10px;
+    }
+    &-number {
+        margin-bottom: 30px;
+    }
+    &-icon {
+        margin-bottom: 35px;
+    }
+    &-content {
+        padding: 60px 0px 60px 40px;
+    }
+  
+}
 }

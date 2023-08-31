@@ -76,6 +76,17 @@
             padding: 10px 90px 10px 20px;
         }
     }
-
+    @media screen and (max-width: 1023.98px) {
+        ::after {
+            width: 100%;
+        }
+        &-logo {
+            img {
+                margin-left: 0px;
+            }
+        }
+        
+    }
+    
 
 }
