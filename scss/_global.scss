@@ -16,7 +16,7 @@
 //     src: url("../fonts/BuiltTitlingRg-BoldItalic700.ttf") format("truetype");
 //   }
 .wrapper {
-    width: 1586px;
+    // width: 1586px;
     margin: 0 auto;
 }
 .container {
@@ -104,8 +104,9 @@ i.fa-solid.fa-user{
 }
 .titles {
     font-family: "BuiltTitlingRegular", sans-serif;
-    font-size: 22px;
+    font-size: 32px;
     margin-bottom: 70px;
+    letter-spacing: 3.5px;
     font-style: italic;
     font-weight: bold;
 }

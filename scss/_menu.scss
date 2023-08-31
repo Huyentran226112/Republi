@@ -4,7 +4,7 @@
     gap: 0 0px;
   
     &-item{
-            padding: 53px 101px 43px 118px;
+        padding: 48px 93px 43px 116px;
             list-style: none;
     }
     &-item-active {
@@ -25,6 +25,7 @@
     }
     &-link {
         display: inline-block;
+        font-size: 18px;
         text-decoration: none;
         letter-spacing: 2.2px;
         font-family: "BuiltTitlingRegular", sans-serif;
