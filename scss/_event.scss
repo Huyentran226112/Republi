@@ -16,18 +16,14 @@
     &-item-type {
         font-style: italic;
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-weight: 400;
-        letter-spacing: 3px;
         color: var(--white);
         margin-bottom: 15px;
-        letter-spacing: 13px;
     }
 
     &-item-title {
         font-size: 42px;
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-weight: 500;
-        letter-spacing: 13px;
+
         color: var(--white);
         margin-bottom: 25px;
     }
@@ -41,12 +37,11 @@
 
     &-date-text {
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-weight: 400;
-        font-size: 32px;
+        font-size: 22px;
         color: var(--white);
         margin-bottom: 35px;
         letter-spacing: 3px;
-        width: 148px;
+
     }
 
     &-date-icon {
@@ -70,16 +65,15 @@
         width: 216px;
         font-family: "BuiltTitlingRegular", sans-serif;
         color: var(--white);
-        font-size: 32px;
+        font-size: 22px;
         margin-bottom: 15px;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
 
     }
 
     &-location-adrres {
         color: var(--white);
-        font-family: "RobotoRegular";
-        font-weight: 400;
+        font-family: "BuiltTitlingRegular", sans-serif;
         left: 123px;
         transform: translateX(31px);
 
@@ -121,7 +115,7 @@
     }
     @media screen and (max-width: 1023.98px) {
         &-item {
-            padding: 0px 10px 0px 25px;
+            padding: 0px 10px 0px 80px;
             max-width: 912px;
         }
         &-item-title {

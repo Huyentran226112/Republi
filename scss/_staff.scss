@@ -1,163 +1,131 @@
-.staff {
-    background-image: url(../images/staff.jpg);
+.staff{
+    background-image: url(../images/staff.png);
     padding: 150px 0 130px;
-
-    &-main {
+    &-main{
         background: var(--black);
-        max-width: 440px;
+        max-width: 398px;
         padding: 30px 22px 40px 40px;
     }
-
-    &-desc {
+    &-desc{
         font-style: italic;
+        letter-spacing: 2.2px;
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-weight: 600;
         color: var(--primary-color);
-        letter-spacing: 4px;
-        margin-bottom: 10px;
     }
-
-    &-heading {
+    &-heading{
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-weight: 500;
         color: var(--white);
-        font-size: 54px;
+        font-size: 50px;
         letter-spacing: 5px;
         max-width: 350px;
-        line-height: 1.3;
+        line-height: 1.1;
     }
-
-    &-text {
+    &-text{
         color: var(--white);
         font-family: "RobotoRegular", sans-serif;
-        width: 372px;
-        line-height: 1.3;
+        max-width: 350px;
     }
-
-    &-title {
+    &-title{
         transform: translateY(-58px);
     }
-
-    &-list {
+    &-list{
         display: flex;
         align-items: center;
-
+    
     }
-
-    &-link {
+    &-link{
         padding: 32px 64px 10px 62px;
-        max-width: 250px;
-        height: 310px;
+        max-width: 233px;
+        height: 290px;
         background: var(--blue);
         line-height: 1.3;
     }
-
-    &-header {
+    &-header{
         background: var(--purple);
         font-family: "RobotoRegular", sans-serif;
         color: var(--white);
-        font-size: 32px;
-        padding: 40px 0px 40px 76px;
-        ;
+        font-size: 25px;
+        padding: 40px 0px 40px 76px;;
 
     }
-
-    &-flask {
+    &-flask{
         color: var(--white);
-        font-size: 32px;
+        font-size: 25px;
         font-family: "RobotoRegular", sans-serif;
         padding: 40px 0px 40px 79px;
         background: var(--primary-color);
     }
-
-    &-bullhorn {
-        width: 190px;
-        height: 310px;
+    &-bullhorn{
+        width: 165px;
+        height: 290px;
     }
-
-    &-about {
+    &-about{
         color: var(--white);
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-weight: 600;
+        letter-spacing: 2.2px;
         font-style: italic;
         width: 123px;
         margin-bottom: 30px;
-        letter-spacing: 4px;
-    }
 
-    &-sub {
+    }
+    &-sub{
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-weight: 400;
         color: var(--white);
         letter-spacing: 2px;
-        font-size: 32px;
-        width: 139px;
-
-        @media screen and (max-width: 767.98px) {
-            padding: 50px 0 50px;
-
-            &-sub {
-                font-size: 21px;
-            }
-
-            &-desc {
-                margin-bottom: 10px;
-                color: var(--primary-color);
-            }
-
-            &-heading {
-                margin-bottom: 10px;
-            }
-
-            &-text {
-                font-size: 18px;
-                line-height: 1.2;
-            }
-
-            &-about {
-                width: 124px;
-                margin-bottom: 20px;
-            }
-
-            &-bullhorn {
-                width: 150px;
-                height: 290px;
-            }
-
-            &-header {
-                padding: 40px 0px 40px 63px;
-            }
-
-            &-flask {
-                padding: 40px 0px 40px 63px;
-            }
-        }
-
-        @media screen and (max-width: 1023.98px) {
-            background-position: center;
-            padding: 70px 0 70px;
-
-            &-text {
-                font-size: 18px;
-                line-height: 1.1;
-                width: 297px;
-            }
-
-            &-heading {
-                font-size: 40px;
-                padding-bottom: 15px;
-            }
-
-            &-desc {
-                margin-bottom: 20px;
-            }
-
-            &-main {
-                background: var(--black);
-                max-width: 398px;
-                padding: 30px 20px 0px 60px;
-            }
-        }
-
+        font-size: 25px;
+        width: 123px;
     }
+@media screen and (max-width: 767.98px) {
+        padding: 50px 0 50px;
+        &-sub{
+            font-size: 21px;
+        }
+        &-desc {
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        &-heading {
+            margin-bottom: 10px;
+        }
+        &-text {
+            font-size: 18px;
+            line-height: 1.2;
+        }
+        &-about {
+            width: 124px;
+            margin-bottom: 20px;
+        }
+        &-bullhorn {
+            width: 150px;
+            height: 290px;
+        }
+        &-header {
+            padding: 40px 0px 40px 63px;
+        }
+        &-flask {
+            padding: 40px 0px 40px 63px;
+        }
+}
+@media screen and (max-width: 1023.98px) {
+        background-position: center;
+        padding: 70px 0 70px;
+        &-text {
+            font-size: 18px;
+            line-height: 1.1;
+            width: 297px;
+        }
+        &-heading {
+            font-size: 40px;
+            padding-bottom: 15px;
+        }
+        &-desc {
+            margin-bottom: 20px;
+        }
+        &-main {
+            background: var(--black);
+            max-width: 398px;
+            padding: 30px 20px 0px 60px;
+        }
+}
+
 }

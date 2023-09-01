@@ -1,3 +1,15 @@
+@font-face {
+font-family: "BuiltTitlingRegular";
+src: url("../fonts/BuiltTitlingRg-Regular400.ttf") format("truetype");
+}
+@font-face {
+font-family: "RobotoRegular";
+src: url("../fonts/Roboto/RobotoCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "RobotoBold";
+src: url("../font/Roboto/RobotoCondensed-Bold.ttf") format("truetype");
+}
 .service {
     padding: 80px;
     position: relative;
@@ -21,13 +33,13 @@
         margin: 0 auto;
       
     }
-
     &-about {
-        font-size: 96px;
+        font-size: 55px;
+        font-weight: 400;
         font-family: "RobotoRegular", sans-serif;
-        font-weight: 500;
         color: var(--white);
         letter-spacing: 8px;
+        max-width: 400px;
         margin-bottom: 40px;
         line-height: 1.1;
     }
@@ -39,19 +51,14 @@
     }
 
     &-input {
-        padding: 17px 53px 17px 20px;
+        font-family: "RobotoRegular", sans-serif;
+        padding: 10px 20px 10px 20px;
         background: var(--white);
         border: none;
-        font-weight: 500;
-        letter-spacing: 3px;
-        font-size: 32px;
     }
 
     &-form-input {
-        margin-bottom: 17px;
-    }
-    &-heading {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     @media screen and (max-width: 767.98px) {
@@ -67,12 +74,14 @@
 
         &-main {
             flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 auto;
+                flex-direction: column;
         }
-
         &-logo img {
             margin-left: 0px;
-            transform: translateX(-152%);
-             width: 334px;
         }
 
         &-content {
@@ -85,6 +94,7 @@
         &-input {
             padding: 10px 90px 10px 20px;
         }
+     
     }
     @media screen and (max-width: 1023.98px) {
         ::after {
@@ -92,12 +102,9 @@
         }
         &-logo {
             img {
-                margin-left: 0px; 
-                transform: translateX(-500px);
-                width: 333px;
+                margin-left: 0px;
             }
         }
-        
         
     }
     
