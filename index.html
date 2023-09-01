@@ -39,7 +39,9 @@
 					<div class="header-content">
 						<div class="header-icon">
 							<div class="header-drive"></div>
-							<div class="home-heart fa-solid fa-heart"><span>290</span></div>
+							<div class="header-icons">
+								<span>Heart</span>290
+							</div>
 							<div class="header-base"></div>
 						</div>
 						<div class="header-top">
@@ -60,7 +62,7 @@
 					</div>
 				</div>
 			</section>
-		</div>
+		
 			<section class="fature">
 				<div class="container">
 					<div class="fature-main">
@@ -97,7 +99,7 @@
 							</div>
 							<div class="fature-item fature-sinup">
 								<div class="fature-item-top">
-									<i class="fa-solid fa-capsules"></i>
+									<h2 class="title">capsules</h2>
 								</div>
 								<div class="fature-item-bottom">
 									<h5 class="desgn">STRATEGY</h5>
@@ -245,21 +247,34 @@
 					</div>
 				</div>
 			</section>
-			<section class="register">
-				<div class="register-form">
-				  <div class="register-content">
-					<h2 class="register-title">become a member</h2>
-					<form>
-					  <input type="text" placeholder="Firstname">
-					  <input type="text" placeholder="lastname">
-					  <input type="email" placeholder="email address">
-					  <button class="transform">submit </button>
-					</form>
-				  </div>
-				  <div class="register-img"> <img src="./images/phone.jpg"
-					  alt="become a member"></div>
+			
+			<section class="service">
+				<div class="container">
+					<div class="service-main">
+						<div class="service-content">
+							<h1 class="service-about">
+								become a member
+							</h1>
+							<form class="service-form">
+								<div class="service-form-input">
+									<input type="text" class="service-input" placeholder="Firstname">
+								</div>
+								<div class="service-form-input">
+									<input type="text" class="service-input" placeholder="lastname">
+								</div>
+								<div class="service-form-input">
+									<input type="text" class="service-input inputs service-heading"
+										placeholder="email address">
+								</div>
+								<a href="#" class="btn-button">SUBMIT</a>
+							</form>
+						</div>
+						<div class="service-logo">
+							<img src="./images/phone.jpg" alt>
+						</div>
+					</div>
 				</div>
-			  </section>
+			</section>
 			<section class="staff">
 				<div class="container">
 					<div class="staff-main">
@@ -295,38 +310,54 @@
 					</div>
 				</div>
 			</section>
-			<section class="contact">
-				<div class="contact-container">
-				  <div class="contact-register">
-					<div class="contact-content">
-					  <h4>get in touch</h4>
-					  <p class="contact-description">Lorem ipsum dolor sit amet,
-						consectetuer adipiscing elit, sed diam nonummy nibh euismod
-						tincidunt ut laoreet.</p>
-						<div class="contact-phone"> <i class="fa-solid fa-phone-flip"></i><a href="#"> 01482 765465</a></div>
-					  <div class="contact-social"><a class="transform" href="#"> <img
-							src="./images/Shape 19.png" alt="facebook"></a><a
-						  class="transform" href="#"> <img
-							src="./images/Shape 20.png" alt="facebook"></a><a
-						  class="transform" href="#"> <img
-							src="./images/Shape 21.png" alt="facebook"></a><a
-						  class="transform" href="#"> <img
-							src="./images/Shape 22.png" alt="facebook"></a></div>
-					  <div class="contact-call"> <i class="fa-solid fa-location-dot"></i><a
-						  class="transform" href="#"> Visit us</a></div>
+			<section class="portfolio">
+				<div class="portfolio-fluid">
+					<div class="portfolio-container">
+						<div class="portfolio-top">
+							<div class="portfolio-content">
+								<div class="portfolio-title">get in touch</div>
+								<p class="portfolio-desc">Lorem ipsum dolor sit amet, consectetuer
+									adipiscing elit,
+									sed diam nonummy nibh euismod tincidunt
+									ut laoreet.</p>
+								<div class="portfolio-number">
+									<i class="fa-solid fa-phone"></i>
+									01482 765465
+								</div>
+								<div class="portfolio-icon">
+									<img src="./images/Shape 19.png" alt>
+									<img src="./images/Shape 20.png" alt>
+									<img src="./images/Shape 21.png" alt>
+									<img src="./images/Shape 22.png" alt>
+								</div>
+								<div class="portfolio-visit">
+									<i class="fa-solid fa-heart"></i>
+									Visit us
+								</div>
+							</div>
+							<div class="portfolio-main">
+								<h2 class="portfolio-list">
+									SEND US A MESSAGE
+								</h2>
+								<form class="portfolio-form">
+									<div class="portfolio-form-input">
+										<input type="text" class="portfolio-input portfolio-inputs"
+											placeholder="name">
+									</div>
+									<div class="portfolio-form-input ">
+										<input type="text" class="portfolio-input portfolio-inputs"
+											placeholder="email">
+									</div>
+									<div class="portfolio-form-input">
+										<textarea rows="2" placeholder="message" class="portfolio-form-inputt"></textarea>
+									</div>
+									<a href="#" class="btn-buttons portfolio-item">SUBMIT</a>
+								</form>
+							</div>
+						</div>
 					</div>
-					<div class="contact-form">
-					  <h2>SEND US A MESSAGE</h2>
-					  <form>
-						<input type="text" placeholder="name">
-						<input type="email" placeholder="email">
-						<textarea placeholder="message" name="message"></textarea>
-						<button class="transform">Submit</button>
-					  </form>
-					</div>
-				  </div>
 				</div>
-			  </section>
+			</section>
 			<div class="footer">
 				<div class="container">
 					<div class="footer-menu">
@@ -356,12 +387,11 @@
 
 				</div>
 		
+			</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 		<script type="text/javascript"
 			src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 		<script src="./app.js"></script>
-		<script src="https://kit.fontawesome.com/ae971d7ee0.js"
-		crossorigin="anonymous"> </script>
 	</body>
 </html>

@@ -11,23 +11,25 @@
         padding: 190px 125px ;
     }
     &-top {
-        width: 47%;
+        width: 53%;
         background-position: center;
     }
     &-heading {
         font-family: "BuiltTitlingRegular", sans-serif;
-        font-size: 50px;
-        max-width:189px;;
+        font-size: 54px;
+        max-width: 204px;
         letter-spacing: 5px;
         line-height: 1.1;
         margin-bottom: 30px;
-        color: var(--purple-color)
+        color: var(--purple-color);
+        font-weight: 500;
     }
     &-desc {
         width: 400px;
         font-weight: 400;
         font-family: "RobotoRegular", sans-serif;
         line-height: 1.5;
+        color: var(--black);
     }
     @media screen and (max-width: 767.98px) {
         padding: 30px;
@@ -57,8 +59,10 @@
             padding: 50px 0px 50px 50px;
         }
         &-main {
-            flex-direction: column;
             padding-bottom: 30px;
+        }
+        &-desc {
+            width: 369px;
         }
        
     }

@@ -1,24 +1,27 @@
 .footer {
     padding: 130px 0 120px;
     background-color: var(--black);
+
     &-menu {
-        display:flex;
+        display: flex;
         align-items: center;
         justify-content: space-between;
-                  
+
     }
+
     &-column {
         display: flex;
         align-items: center;
         gap: 0 90px;
     }
+
     &-title {
         font-size: 18px;
-        font-family: "RobotoRegular", sans-serif;
+        font-family: "BuiltTitlingRegular", sans-serif;
         color: var(--white);
-        letter-spacing: 2px;
-       
+        letter-spacing: 4px;
     }
+
     &-copyrights {
         width: 137px;
         height: 2px;
@@ -27,17 +30,19 @@
         border-width: 2px;
         margin-top: 5px;
     }
+
     &-axure {
-        width: 132px;
+        width: 101px;
         height: 2px;
         border-color: var(--white);
         border-style: solid;
         border-width: 2px;
         margin-top: 5px;
-        margin-left: 12px;
+        margin-left: 6px;
     }
+
     &-care {
-        width: 74px;
+        width: 50px;
         height: 2px;
         border-color: var(--white);
         border-style: solid;
@@ -45,54 +50,71 @@
         margin-top: 5px;
         margin-left: 5px;
     }
-   &-Copyright {
-        width: 78px;
+
+    &-Copyright {
+        width: 47px;
         height: 2px;
         border-color: var(--white);
         border-style: solid;
         border-width: 2px;
         margin-top: 5px;
         margin-left: 9px;
-   }
+    }
+
     &-img {
         padding: 20px 177px 20px 35px;
         background: var(--primary-color);
         transform: translateX(124px);
     }
+
     @media screen and (max-width: 991px) {
         padding: 60px 0 50px;
-        &-menu{
+
+        &-menu {
             flex-direction: column;
         }
+
         &-img {
             transform: unset;
             padding: 20px;
         }
+
         &-column-logo {
             margin-top: 20px;
         }
+        &-column {
+            margin-bottom: 20px;
+        }
     }
+
     @media screen and (max-width: 767.98px) {
-            padding: 50px 0 50px;
-        &-menu{
+        padding: 50px 0 50px;
+
+        &-menu {
 
             flex-direction: column;
         }
-        &-column{
+
+        &-column {
             flex-direction: column;
         }
-        &-img{
-                transform: translateX(0px);
+
+        &-img {
+            transform: translateX(0px);
         }
+
         &-axure {
             color: white;
         }
-        &-desgn{
+
+        &-desgn {
             color: white;
         }
+
         &-link {
             margin-bottom: 38px;
         }
+
         &-copyright {
             margin-bottom: 38px;
         }
